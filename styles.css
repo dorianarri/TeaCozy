@@ -57,10 +57,12 @@ header {
 /* Main Section */
 
 .main {
+    display: flex;
+    justify-content:center;
     padding: 16px;
     margin-top: 70px;
     height: 700px;
-    width: 100%;
+    width: 95%;
     background-image: url(../images/\img-mission-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
