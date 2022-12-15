@@ -1,6 +1,5 @@
 * {
     font-family: Helvetica, sans-serif;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
@@ -8,6 +7,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+} 
+
+body {
+    font-size: 22px;
 }
 
 /* Header */
@@ -56,9 +59,12 @@ header {
 
 /* Main Section */
 
-.main {
+.mission {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+
+.mission-img {
     padding: 16px;
     margin-top: 70px;
     height: 700px;
@@ -67,6 +73,34 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
-#mission {}
+#mission {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px 700px;
+    height: 700px;
+    width: 100%;
+    }
+    
+.mission-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    gap: 10px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    z-index: 1;
+    opacity: 1;
+}
