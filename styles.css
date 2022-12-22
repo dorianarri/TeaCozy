@@ -1,12 +1,12 @@
 * {
     font-family: Helvetica, sans-serif;
     color: seashell;
-    background-color: black;
-    opacity: 0.9;
     text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    opacity: 0.9;
+    background-color: black;
 } 
 
 body {
@@ -59,26 +59,9 @@ header {
 
 /* Main Section */
 
-.mission {
-    display: flex;
-    justify-content: center;
-}
-
-.mission-img {
-    padding: 16px;
-    margin-top: 70px;
-    height: 700px;
-    width: 95%;
-    background-image: url(../images/\img-mission-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
 #mission {
-    width: 1200px;
-    height: 700px;
+    max-width: 1200px;
+    min-height: 700px;
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -87,9 +70,6 @@ header {
     background-image: url(/images/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: 1200px 700px;
-    height: 700px;
-    width: 100%;
     }
     
 .mission-banner{
@@ -132,4 +112,60 @@ header {
     width: 300px;
     height: 200px;
     padding-bottom: 10px;
+}
+
+/* Location Section */
+
+.location-section {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.location-heading {
+    display: flex;
+    background: transparent;
+}
+
+.locations-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    background: none;
+}
+
+.location-info {
+    max-width: 300px;
+    min-height: 300px;
+    margin: 15px 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Contact Section */
+
+.contact {
+    min-0height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Footer */
+
+.footer {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
