@@ -154,7 +154,7 @@ header {
 /* Contact Section */
 
 .contact {
-    min-0height: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
